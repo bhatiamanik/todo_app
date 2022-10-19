@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             if (todoTitle.isNotEmpty()) {
                 val todo = Todolist(todoTitle)
                 todoAdapter.addTodo(todo)
-                etext.text.clear()
+                etext.text.clear()//function 1
             }
         }
         bDelete.setOnClickListener {
