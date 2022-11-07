@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
                 etext.text.clear()//function 1
             }
         }
-        bDelete.setOnClickListener {
+        bDelete.setOnClickListener {//function 2
             todoAdapter.deleteDone()
         }
 
